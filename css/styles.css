@@ -207,7 +207,12 @@ iframe {
 	float: left;
 	border: 2px solid black;
 	border-radius: 5px;
-	margin-top: 25px;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.rightvid {
+	margin-right: 0px;
 }
 
 /*PHOTOS*/
