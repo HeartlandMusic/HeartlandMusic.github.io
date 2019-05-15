@@ -104,7 +104,7 @@ main p a {
 main img {
 	float: left;
 	width: 596px;
-	height: 600px*0.5px;
+	height: 600*0.5px;
 	border: 2px solid black;
 	border-radius: 5px;
 	margin-top: 25px;
