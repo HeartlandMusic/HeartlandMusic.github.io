@@ -189,17 +189,20 @@ footer div .fa{
 .fa-facebook {
     background: #3B5998;
     color: white;
+    margin-top: 20px;
 }
 
 /* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    margin-top: 20px;
 }
 
 .fa-instagram {
   	background: #125688;
   	color: white;
+  	margin-top: 20px;
 }
 /*VIDEO*/
 
