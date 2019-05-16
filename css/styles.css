@@ -101,7 +101,7 @@ main p a {
 	text-decoration: none;
 }
 
-main img {
+main img:not(.pa-embed-player img) {
 	float: left;
 	width: 596px;
 	height: 600*0.5px;
@@ -225,6 +225,51 @@ iframe {
 	width: 472px;
 	border: 2px solid black;
 	border-radius: 5px;
+}
+
+.pa-embed-player {
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.indphotos {
+	display: flex;
+  	flex-wrap: wrap;
+  	padding: 0 8px;
+}
+
+.column {
+  	flex: 33%;
+  	max-width: 33%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.indphotos img{
+	float: left;
+	vertical-align: middle;
+	width: 312px;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.pa-embed-player img{
+	margin-top: none;
+	border: none;
 }
 
 .facebook {
