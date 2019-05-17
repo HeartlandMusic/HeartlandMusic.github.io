@@ -101,7 +101,7 @@ main p a {
 	text-decoration: none;
 }
 
-main img:not(.pa-embed-player img) {
+.mainpics{
 	float: left;
 	width: 596px;
 	height: 600*0.5px;
@@ -227,7 +227,7 @@ iframe {
 	border-radius: 5px;
 }
 
-.pa-embed-player {
+.pa-carousel-widget {
 	float: left;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -267,7 +267,7 @@ iframe {
 	border-radius: 5px;
 }
 
-.pa-embed-player img{
+.pa-carousel-widget img{
 	margin-top: none;
 	border: none;
 }
