@@ -235,8 +235,9 @@ iframe {
 
 .indphotos {
 	display: flex;
+	float: left;
   	flex-wrap: wrap;
-  	padding: 0 8px;
+  	padding: 0px 4px;
 }
 
 .column {
@@ -265,6 +266,7 @@ iframe {
 	height: auto;
 	border: 2px solid black;
 	border-radius: 5px;
+
 }
 
 .pa-carousel-widget img{
