@@ -304,6 +304,10 @@ iframe {
 	margin-right: 0px;
 }
 
-.facebookfeed {
-	margin-left: 230px;
+.crt-widget {
+	width: 460px;
+
+	float: left;
+
+	margin-top: 20px;
 }
